@@ -23,4 +23,4 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/squares
 
 ## License
 
-The code is available as open source under the terms of the [MIT License](LICENSE).
+The code is available as open source under the terms of the [MIT License](LICENSE.txt).
