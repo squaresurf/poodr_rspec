@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Travis to use the .ruby-version file.
+- Use ruby 2.3.0.
 
 ## [0.0.1] - 2016-01-06
 ### Added
