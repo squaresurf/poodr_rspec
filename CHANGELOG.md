@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Gear Class, MiniTest, and RSpec.
+- Wheel Class, MiniTest, and RSpec.
+
 ### Changed
 - Travis to use the .ruby-version file.
 - Use ruby 2.3.0.
