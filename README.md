@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/squaresurf/poodr_rspec.svg?branch=master)](https://travis-ci.org/squaresurf/poodr_rspec)
+[![Coverage Status](https://coveralls.io/repos/squaresurf/poodr_rspec/badge.svg?branch=master&service=github)](https://coveralls.io/github/squaresurf/poodr_rspec?branch=master)
 
 # POODR RSpec
 

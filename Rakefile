@@ -1,5 +1,8 @@
+require 'coveralls/rake/task'
 require 'rake/testtask'
 require 'rspec/core/rake_task'
+
+Coveralls::RakeTask.new
 
 Rake::TestTask.new(:test) do |t|
   t.libs << 'test'
@@ -9,4 +12,4 @@ end
 
 RSpec::Core::RakeTask.new(:spec)
 
-task default: [:test, :spec]
+task default: [:test, :spec, 'coveralls:push']
