@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2015-01-07
+### Changed
+- Wheel is converted to a test double in order to inject depenedcies as roles.
+
 ## [0.2.0] - 2016-01-06
 ### Changed
 - Gear to recieve a wheel object rather than initialize it within the class.
@@ -26,7 +30,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Gemfile.lock committed in order to manage specific versions.
 
-[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.0.1...v0.1.0
 [0.0.1]: https://github.com/squaresurf/poodr_rspec/compare/v0.0.0...v0.0.1
