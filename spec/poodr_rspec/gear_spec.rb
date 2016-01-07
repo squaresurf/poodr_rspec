@@ -5,8 +5,7 @@ describe PoodrRspec::Gear do
     PoodrRspec::Gear.new(
       chainring: 52,
       cog: 11,
-      rim: 26,
-      tire: 1.5
+      wheel: PoodrRspec::Wheel.new(26, 1.5)
     )
   end
 
