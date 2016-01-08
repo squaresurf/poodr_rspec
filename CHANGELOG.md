@@ -3,8 +3,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [0.5.0]
 ### Added
 - Pry gem to a development group for debugging purposes.
+- Shared role test examples.
 
 ### Changed
 - Tests to extend MiniTest::Test since MiniTest::Unit::TestCase is deprecated.
@@ -40,8 +43,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Gemfile.lock committed in order to manage specific versions.
 
-[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.4.0...HEAD
-[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.3.0...v0.4.0
+[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.0.1...v0.1.0
