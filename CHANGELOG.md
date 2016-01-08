@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Tests to extend MiniTest::Test since MiniTest::Unit::TestCase is deprecated.
+- Moved SimpleCov start to the .simplecov file so we could ignore test/spec files.
 
 ## [0.4.0] - 2015-01-07
 ### Added
