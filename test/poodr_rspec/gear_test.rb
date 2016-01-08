@@ -7,7 +7,7 @@ module PoodrRspec
     end
   end
 
-  class GearTest < MiniTest::Unit::TestCase
+  class GearTest < MiniTest::Test
     def setup
       @observer = MiniTest::Mock.new
       @gear = Gear.new(

@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module PoodrRspec
-  class WheelTest < MiniTest::Unit::TestCase
+  class WheelTest < MiniTest::Test
     def test_calculate_diameter
       wheel = Wheel.new(26, 1.5)
 

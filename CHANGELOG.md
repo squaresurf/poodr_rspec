@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Pry gem to a development group for debugging purposes.
 
+### Changed
+- Tests to extend MiniTest::Test since MiniTest::Unit::TestCase is deprecated.
+
 ## [0.4.0] - 2015-01-07
 ### Added
 - Proving Command Messages Examples
