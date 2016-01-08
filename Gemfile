@@ -9,3 +9,7 @@ gem 'minitest-reporters'
 gem 'rake'
 gem 'rspec'
 gem 'simplecov'
+
+group :development do
+  gem 'pry'
+end

@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Pry gem to a development group for debugging purposes.
 
 ## [0.4.0] - 2015-01-07
 ### Added
