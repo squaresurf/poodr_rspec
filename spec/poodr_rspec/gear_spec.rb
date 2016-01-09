@@ -1,14 +1,22 @@
 require 'spec_helper'
+require 'support/shared_examples/a_diameterizable_interface'
 
 describe PoodrRspec::Gear do
   let(:observer) { double(changed: true) }
+  let(:wheel_double) { double(width: 10) }
   subject(:gear) do
     PoodrRspec::Gear.new(
       chainring: 52,
       cog: 11,
       observer: observer,
-      wheel: double(diameter: 10)
+      wheel: wheel_double
     )
+  end
+
+  describe 'wheel double passes interface' do
+    it_should_behave_like 'a diameterizable interface' do
+      let(:diameterizable) { wheel_double }
+    end
   end
 
   describe '#gear_inches' do

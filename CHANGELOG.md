@@ -4,6 +4,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.6.0]
+### Added
+- Diameterizable Interface Tests
+
+### Changed
+- Renamed Wheel#diameter -> Wheel#width so that I could follow the progression of logic for fixing tests that pass when they shouldn't.
+
 ## [0.5.0]
 ### Added
 - Pry gem to a development group for debugging purposes.
@@ -43,7 +50,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Gemfile.lock committed in order to manage specific versions.
 
-[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.2.0...v0.3.0

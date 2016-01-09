@@ -1,9 +1,19 @@
 require 'test_helper'
+require 'support/modules/diameterizable_interface_test'
 
 module PoodrRspec
   class DiameterDouble
-    def diameter
+    def width
       10
+    end
+  end
+
+  # Prove the test double honors the interface this test expects
+  class DiameterDoubleTest < MiniTest::Test
+    include DiameterizableInterfaceTest
+
+    def setup
+      @object = DiameterDouble.new
     end
   end
 
