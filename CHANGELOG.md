@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+- Bicycle class hierarchy to show how to test inheritence.
+- Bicycle interface tests to test liskov substitution principle.
 
 ## [0.6.0]
 ### Added
