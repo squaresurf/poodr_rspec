@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Bicycle class hierarchy to show how to test inheritence.
 - Bicycle interface tests to test liskov substitution principle.
 - Bicycle Subclass tests.
+- Bicycle Superclass enforcement tests.
 
 ## [0.6.0]
 ### Added
