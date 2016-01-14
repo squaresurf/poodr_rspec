@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Bicycle interface tests to test liskov substitution principle.
 - Bicycle Subclass tests.
 - Bicycle Superclass enforcement tests.
+- Test concrete subclass behavior.
 
 ## [0.6.0]
 ### Added
