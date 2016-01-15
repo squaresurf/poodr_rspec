@@ -3,7 +3,11 @@
 
 # POODR RSpec
 
-This is an attempt to adapt the MiniTest examples and concepts from the testing chapter of [POODR](http://www.poodr.com/) to RSpec.
+This is an attempt to adapt the MiniTest examples and concepts from the testing chapter of [POODR] to RSpec. [POODR] is an incredible book that will help anyone writing [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) code no matter what language.
+
+## Disclaimer
+
+This repo has no affiliation with [POODR], [Sandy Metz](http://www.sandimetz.com/), or the Publisher. The library classes and MiniTest suite are mostly copied from the book. There are a few updates made, for example we  use `MiniTest::Test` instead of `MiniTest::Unit::TestCase`. The RSpec suite was written from scratch and not from the book. It is an attempt to convert the principles found from the MiniTest suite to RSpec.
 
 ## Installation
 
@@ -25,3 +29,5 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/squares
 ## License
 
 The code is available as open source under the terms of the [MIT License](LICENSE.txt).
+
+[POODR]: http://www.poodr.com/

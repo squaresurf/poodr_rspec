@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [1.0.0]
 ### Added
 - Bicycle class hierarchy to show how to test inheritence.
 - Bicycle interface tests to test liskov substitution principle.
@@ -10,6 +12,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Bicycle Superclass enforcement tests.
 - Test Concrete Subclass Behavior
 - Test Abstract Superclass Behavior
+- Disclaimer to the README.md
 
 ### Fixed
 - Bug with Bicycle#initialize as it did not use the default\_\* methods for initialization.
@@ -60,7 +63,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Gemfile.lock committed in order to manage specific versions.
 
-[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/squaresurf/poodr_rspec/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.6.0...v1.0.0
 [0.6.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/squaresurf/poodr_rspec/compare/v0.3.0...v0.4.0
