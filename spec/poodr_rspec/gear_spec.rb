@@ -13,7 +13,7 @@ describe PoodrRspec::Gear do
     )
   end
 
-  describe 'wheel double passes interface' do
+  describe 'wheel_double' do
     it_should_behave_like 'a diameterizable interface' do
       let(:diameterizable) { wheel_double }
     end
